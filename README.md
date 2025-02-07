@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-The goal of this project is to simulate a small hospital network focusing on medical imaging and AI-based analysis. Interns will build an integrated system with four primary components:
+The goal of this project is to simulate a small hospital network focusing on medical imaging and AI-based analysis. You will build an integrated system with four primary components:
 
 1. **EMR Server:** Manages patient records and imaging analysis prescriptions.
 2. **DICOM/PACS Server:** Stores and serves medical images (in DICOM format).
@@ -138,7 +138,7 @@ Deep neural network inference can be resource-intensive, especially when multipl
 
 ## 7. Evaluation Criteria
 
-Interns will be evaluated based on:
+You will be evaluated based on:
 - **Functionality:** Each component meets its specified requirements.
 - **Integration:** Seamless communication and data flow across the system.
 - **Scalability & Load Handling:** Effective use of queuing and MLOps practices in the AI Server.
