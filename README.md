@@ -148,11 +148,11 @@ You will be evaluated based on:
 
 ---
 
-## 8. Optional Enhancements
+## 8. Required Enhancements
 
 - **Security & Authentication:** Implement user authentication for nurse access and secure API communication.
 - **Advanced Error Handling:** Enhance logging and error handling for improved reliability.
-- **Container Orchestration:** Use Docker Compose or Kubernetes for managing multi-container deployments.
+- **Container Orchestration:** Use Docker Compose for managing multi-container deployments.
 - **Detailed AI Reporting:** Expand the AI report to include metrics, confidence scores, or annotated images.
 
 ---
