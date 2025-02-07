@@ -1,4 +1,4 @@
-# HospitalSimulationProject : Hospital Network Simulation with AI Imaging Analysis
+# HospitalSimulationProject: Hospital Network Simulation with AI Imaging Analysis
 
 ## 1. Project Overview
 
@@ -9,13 +9,17 @@ The goal of this project is to simulate a small hospital network focusing on med
 3. **AI Server:** Runs a deep neural network to process images, generate analysis reports, and update the EMR.
 4. **Retinal Fundus Imaging Station:** Simulates image capture of the retina (via file upload or simulated capture).
 
+**Data Source Reference:**  
+For training or testing the AI model (or for sample data), you may refer to the Kaggle Diabetic Retinopathy Detection dataset:  
+[https://www.kaggle.com/c/diabetic-retinopathy-detection/data](https://www.kaggle.com/c/diabetic-retinopathy-detection/data)
+
 ## 2. Project Objectives
 
 - **Design & Build an Integrated System:** Create a hospital-like network that mimics real-world patient flow.
 - **Implement End-to-End Workflow:** Cover patient registration, image capture, image storage, AI analysis, and reporting.
 - **Handle Heavy Load:** Address the computational demands of AI processing using asynchronous queuing and basic MLOps practices.
 - **Demonstrate Inter-Service Communication:** Ensure seamless integration among the EMR, DICOM/PACS, AI, and Imaging Station components.
-- **Enhance Practical Skills:** Give interns experience with web development, database design, image processing, AI model integration, and distributed computing concepts.
+- **Enhance Practical Skills:** Provide experience with web development, database design, image processing, AI model integration, and distributed computing concepts.
 
 ## 3. System Components & Responsibilities
 
@@ -78,7 +82,8 @@ The goal of this project is to simulate a small hospital network focusing on med
    - **Asynchronous Processing:** Worker processes pick up jobs from the queue, retrieve the image from the DICOM/PACS Server, and run the DNN for analysis.
    - **Result Generation:** The AI Server generates an analysis report (e.g., an annotated image) and updates the patient record on the EMR Server.
 
-5. **Feedback:** The system provides status updates via the AI Server UI, indicating when processing is complete and the EMR has been updated.
+5. **Feedback:**  
+   - The system provides status updates via the AI Server UI, indicating when processing is complete and the EMR has been updated.
 
 ---
 
@@ -108,13 +113,13 @@ Deep neural network inference can be resource-intensive, especially when multipl
   - Overall architecture diagram.
   - Description of each component and inter-service APIs.
   - Chosen technologies with justifications.
-  
+
 ### Phase 2: Component Implementation
 - **EMR Server:** Develop patient registration and prescription management.
 - **DICOM/PACS Server:** Set up image reception, storage, and retrieval endpoints.
 - **Retinal Fundus Imaging Station:** Build a web interface to capture/upload images and integrate with the DICOM/PACS Server.
 - **AI Server:** Implement job queuing, AI inference, report generation, and update routines.
-  
+
 ### Phase 3: Integration & Testing
 - **Deliverable:** End-to-end testing of the workflow:
   - Verify patient creation and prescription in the EMR.
@@ -151,5 +156,4 @@ Interns will be evaluated based on:
 - **Detailed AI Reporting:** Expand the AI report to include metrics, confidence scores, or annotated images.
 
 ---
-
 Good luck, and please feel free to ask for any clarification during the project!
