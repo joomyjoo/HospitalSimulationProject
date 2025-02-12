@@ -13,7 +13,7 @@ The goal of this project is to simulate a small hospital network focusing on med
 For training or testing the AI model (or for sample data), you may refer to the Kaggle Diabetic Retinopathy Detection dataset:  
 [https://www.kaggle.com/c/diabetic-retinopathy-detection/data](https://www.kaggle.com/c/diabetic-retinopathy-detection/data)
 Or other datasets as listed in this github repo:
-[https://github.com/openmedlab/Awesome-Medical-Dataset?tab=readme-ov-file#retina] ([https://github.com/joomyjoo/HospitalSimulationProject](https://github.com/openmedlab/Awesome-Medical-Dataset?tab=readme-ov-file#retina)
+[https://github.com/openmedlab/Awesome-Medical-Dataset?tab=readme-ov-file#retina] (https://github.com/openmedlab/Awesome-Medical-Dataset?tab=readme-ov-file#retina)
 
 
 ## 2. Project Objectives
